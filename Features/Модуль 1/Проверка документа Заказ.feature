@@ -39,7 +39,6 @@ Scenario: Проверка добавлении Услуги в документ
 	And I activate field named "ТоварыКоличество" in "Товары" table
 	And I input "1" text in the field named "ТоварыКоличество" of "Товары" table
 	And I finish line editing in "Товары" table
-	And in "Товары" table "Сумма" field is set to "10 000,00"
 	And I click the button named "ФормаПровестиИЗакрыть"
 	
 		
